@@ -24,21 +24,55 @@ I and J are often used in for loops. tough any name can be used. it's principaly
 
 ## Explain it to me like I'm 5
 
-### S - Single responsibility
-
-### O - Open/Closed
-
-### L - Liskov's Substitution
-
-### I - Interface Segregation
-
-### D - Dependency Inversion
+- #### S - Single responsibility
+  - Doing one thing at a time makes you more at ease, does it not ?
+- #### O - Open/Closed
+  - I should be able to build upon what you created, but not change your creation
+- #### L - Liskov's Substitution
+  - When you build a 3 story house, I should be able to remove one floor without the house crumbling down
+- #### I - Interface Segregation
+  - Rules are good, but you should not have to follow rules that do not apply to you
+- #### D - Dependency Inversion
+  - You should still be able to come out and play if you wear different shoes
 
 ## Explain it to me like I'm 10
 
+- #### S - Single responsibility
+  -
+- #### O - Open/Closed
+  -
+- #### L - Liskov's Substitution
+  -
+- #### I - Interface Segregation
+  -
+- #### D - Dependency Inversion
+  -
+
 ## Explain it to me like I'm 15
 
+- #### S - Single responsibility
+  -
+- #### O - Open/Closed
+  -
+- #### L - Liskov's Substitution
+  -
+- #### I - Interface Segregation
+  -
+- #### D - Dependency Inversion
+  -
+
 ## Explain it to me like I'm 20
+
+- #### S - Single responsibility
+  -
+- #### O - Open/Closed
+  -
+- #### L - Liskov's Substitution
+  -
+- #### I - Interface Segregation
+  -
+- #### D - Dependency Inversion
+  -
 
 ## Explain it to me like I'm 80
 
