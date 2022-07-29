@@ -29,7 +29,7 @@ I and J are often used in for loops. tough any name can be used. it's principaly
 - #### O - Open/Closed
   - I should be able to build upon what you created, but not change your creation
 - #### L - Liskov's Substitution
-  - When you build a 3 story house, I should be able to remove one floor without the house crumbling down
+  - When you build a 3 story house, I should be able to swap two floors without the house crumbling down
 - #### I - Interface Segregation
   - Rules are good, but you should not have to follow rules that do not apply to you
 - #### D - Dependency Inversion
