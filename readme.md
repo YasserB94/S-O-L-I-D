@@ -77,7 +77,20 @@ I and J are often used in for loops. tough any name can be used. it's principaly
 ## Explain it to me like I'm 80
 
 Your generation 'gave' us the mother of all programming languages. If you are 80 and reading this. Go have some fun! You deserve it!
+
 If you are 80 and still reading this. I am sorry master senpai programmer. I am trying tough, But I still tend to layer my complications on top of the simplicity of a binary library.
 ![Image of master senpai Dennis Ritchie](./repo-assets/Dennis-Simple.jpeg)
 
-## My Road trough the BeCode exercies
+## My Road trough the BeCode exercise
+
+In every repository I kept the original typescript, and created a new.ts to apply my changes.
+
+### S - Single Responsibility
+
+- Underscore naming convention (hey! another principle :D )
+  - It seems that there is a lot of hate for this convention when looking it up. I am guessing it's a principle taught to beginners to avoid issues when naming getters and setters.
+  - It seems like this naming convention is bound to change depending on the team you work with.
+  - This seems like a nice convention to ease make workign with typescript easier but there are some nice alternatives to this as found in the microsoft or google styleguides for typescript
+  - Google's take:
+    `If an accessor is used to hide a class property, the hidden property may be prefixed or suffixed with any whole word, like internal or wrapped. When using these private properties, access the value through the accessor whenever possible. At least one accessor for a property must be non-trivial: do not define pass-through accessors only for the purpose of hiding a property. Instead, make the property public (or consider making it readonly rather than just defining a getter with no setter).`
+  - **Concluding** : the \_ prefix is not a good principle,but it works since it is destructive to the readability of the code. Tough it does make naming getters and setters easier. It's probably one of the first things to update (since it's an outdated principle) once the use and understanding of typescript becomes more natural.
